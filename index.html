@@ -11,21 +11,39 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
+<body class="manrope-font">
     <!-- header file will start here -->
-    <header>
+    <header class="bg-orange-200 border-b-2 border-blue-800">
+    <div class="flex justify-around items-center gap-5 h-10 ml-10 mr-10 md:h-20 gap-10">
+        <h2 class="font-extrabold text-[15px] font-serif md:text-2xl text-blue-800 hover:underline decoration-blue-700">Tea House</h2>
+        <ul class="flex gap-5 font-serif text-[10px]">
+            <li><a href="#" class="text-[15px] md:text-[#3f1b02] md:text-[20px] hover:text-blue-800 font-bold">Home</a></li>
+            <li><a href="#" class="text-[15px] hover:text-[rgba(255,137,56,1)] md:text-blue-800 md:text-[20px] font-bold">Shop</a></li>
+            <li><a href="#" class="text-[15px] md:text-blue-800 md:text-[20px] hover:text-[rgba(255,137,56,1)] font-bold">Contact</a></li>
+        </ul>
+    </div>
     </header>
     <!-- main  -->
-     <main>
+     <main class="manrope-font">
         <!-- banner -->
-         <div class="main-banner border-1 border-red-400 min-h-[200px] container mx-auto mt-5">
-            <div class="text-box">
-                <h1 class="text-box-head"></h1>
-                <p class="text-box-para"></p>
-                <button class="text-box-btn"></button>
+         <div class="flex mr-[74px] ml-[200px] gap-3">
+            <div class="mt-[68px] w-[600px] flex-col gap-[20px]">
+                <h1 class="text-box-head manrope-font font-extrabold text-5xl leading-[70px] text-[#1C1C1C]">It's good </br>
+tea time at The </br> Tea House</h1>
+                <p class="font-medium text-[18px] text-[#777777] leading-[30px]">Tea and Botanical Solutions Supplier Give Optimum</br> Satisfaction To Your Taste Buds.</p>
+                <button class="text-amber-50 text-[20px] mt-[20px] h-[60px] w-[200px] rounded-[10px] bg-gradient-to-l from-red-600 to-orange-500">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
             </div>
-            <div class="visual-box">
-                <i class="fa-solid fa-star"></i>
+            <div class="w-[600px] mt-[100px] relative">
+                <img src="./images/banner.png" alt="banner img">
+                <div class="bg-white w-[255px] h-[90px4] shadow-2xl p-6 bg-white rounded-lg absolute -bottom-2 left-6">
+                    <div class="flex justify-center items-center gap-1">
+                        <i class="fa fa-star fa-3x"></i>
+                        <div class="flex-col">
+                            <p class="font-bold text-3xl">5.00</p>
+                            <p class="font-normal text-[15px]">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
             </div>
          </div>
      </main>
